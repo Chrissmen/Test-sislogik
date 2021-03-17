@@ -1,8 +1,9 @@
 # Test-sislogik
 Se presenta solución Test_T_02 Para la empresa sislogik
 El aplicativo puede ser visualizado en producción en el siguiente link http://chrissmen-001-site11.gtempurl.com/
-o bien podrá hacerse un deploy copiando el repositorio GITHUB  Chrissmen/Test-sislogic carpeta "release" en un Server IIS 8 / .NET 4.5
-el contenido viene en un archivo "release-test-sislogik.zip"
+o bien podrá hacerse un deploy copiando el repositorio GITHUB  Chrissmen/Test-sislogic el contenido viene en un archivo 
+"release-test-sislogik.zip"  en un Server IIS 8 / .NET 4.5
+
 El script de la base de datos se encuentra en la carpeta "scriptDB" del mismo repositorio y puede aplicarse en MS SQL 2012
 
 ----------------------------------
