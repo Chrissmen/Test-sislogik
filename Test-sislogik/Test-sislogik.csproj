@@ -146,6 +146,7 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="release\HtmlPage1.html" />
     <Content Include="WebService1.asmx" />
     <None Include="Connected Services\WS_LoggerService\LoggerService.wsdl" />
     <None Include="Connected Services\WS_LoggerService\soap.disco" />
@@ -309,7 +310,6 @@
     <Folder Include="Controllers\" />
     <Folder Include="ejemplos\" />
     <Folder Include="Models\" />
-    <Folder Include="release\" />
     <Folder Include="scriptDB\" />
   </ItemGroup>
   <ItemGroup>
