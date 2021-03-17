@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Level">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Info" />
+      <xs:enumeration value="Warning" />
+      <xs:enumeration value="Error" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Level" nillable="true" type="tns:Level" />
+</xs:schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="www.silogik.com" elementFormDefault="qualified" targetNamespace="www.silogik.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://silogger.azurewebsites.net/soap?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento.Model" />
+  <xs:import schemaLocation="http://silogger.azurewebsites.net/soap?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento" />
+  <xs:element name="Historial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HistorialResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento.Model" minOccurs="0" name="HistorialResult" nillable="true" type="q1:ArrayOfLog" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Log">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Silogik.Reclutamiento" minOccurs="0" name="level" type="q2:Level" />
+        <xs:element minOccurs="0" name="metadata" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
