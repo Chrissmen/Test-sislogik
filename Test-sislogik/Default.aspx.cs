@@ -20,6 +20,7 @@ namespace Test_sislogik
 
             if (!Page.IsPostBack)
             {
+                //PAGINA HOME
                 //BINDEAR DROPDOWNLIST DESDE CLASE TIPO DE EMPLADO
                 funcionessys.BindddlTipoEmpleado(DdlTipoEmpleado);
 
